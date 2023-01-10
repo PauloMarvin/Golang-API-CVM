@@ -28,7 +28,7 @@ go run .\main.go
 
 ## Uso
 
-A API expõe um endpoint `/process` que aceita um payload de entrada e retorna os resultados do processamento. Por exemplo:
+A API expõe um endpoint `/data` que aceita um payload de entrada e retorna os resultados do processamento. Por exemplo:
 
 ~~~
 curl -X POST -d '{"dados_entrada": "valor"}' http://localhost:8000/data
